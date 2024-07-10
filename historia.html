@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Img/Restaurante-de-Don-Pepito-y-Don-José.ico" type="image/x-icon">
+    <title>Restaurante de Don Pepito y Don José</title>
+
+    <!-- link de fuentes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+PL:wght@100..400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-ZjzZco3PbSZRnD2ca21KwQ5m9K9vRj0/YFpeWFGb1D0OfOwJdOCd4a5TFFjnfn1iI2KY3RiVW2rLyvTlKakQIg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <!-- CSS Personalizado -->
+    <link rel="stylesheet" href="css/estillos.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/historia.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/Responsivos.css">
+</head>
+
+<body>
+    <!-- Menu y logo -->
+    <header>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link" href="index.html#inicio">Inicio</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="restaurante.html#comida_salada"
+                                id="comidaDropdown " role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">Comida Salada</a>
+                            <ul class="dropdown-menu" aria-labelledby="comidaDropdown">
+                                <li><a class="dropdown-item" href="restaurante.html#sandwich">Sandwich y Tostadas</a></li>
+                                <li><a class="dropdown-item" href="restaurante.html#ensaladas">Ensaladas</a></li>
+                                <li><a class="dropdown-item" href="restaurante.html#empanadas">Empanadas</a></li>
+                                <li><a class="dropdown-item" href="restaurante.html#tartas">Tartas</a></li>
+                                <li><a class="dropdown-item" href="restaurante.html#hamburguesas">Hamburguesas</a></li>
+                                <li><a class="dropdown-item" href="restaurante.html#milanesas">Milanesas</a></li>
+                                <li><a class="dropdown-item" href="restaurante.html#pizzas">Pizzas</a></li>
+                                <li><a class="dropdown-item" href="restaurante.html#pastas">Pastas</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="restaurante.html#postres" id="postresDropdown"
+                                role="button" data-bs-toggle="dropdown" aria-expanded="false">Postres</a>
+                            <ul class="dropdown-menu" aria-labelledby="postresDropdown">
+                                <li><a class="dropdown-item" href="restaurante.html#cuadraditos">Cuadraditos</a></li>
+                                <li><a class="dropdown-item" href="restaurante.html#muffin">Muffin</a></li>
+                                <li><a class="dropdown-item" href="restaurante.html#alfajores">Alfajores</a></li>
+                                <li><a class="dropdown-item" href="restaurante.html#tortas">Tortas</a></li>
+                                <li><a class="dropdown-item" href="restaurante.html#tartas">Tartas</a></li>
+                                <li><a class="dropdown-item" href="restaurante.html#budines">Budines</a></li>
+                                <li><a class="dropdown-item" href="restaurante.html#otros-postres">Otros Postres</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="bebidasDropdown bebidas" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">Bebidas</a>
+                            <ul class="dropdown-menu" aria-labelledby="bebidasDropdown">
+                                <li><a class="dropdown-item" href="restaurante.html#cafe">Café</a></li>
+                                <li><a class="dropdown-item" href="restaurante.html#té">Té</a></li>
+                                <li><a class="dropdown-item" href="restaurante.html#licuados">Licuados</a></li>
+                                <li><a class="dropdown-item" href="restaurante.html#jugos">Jugos</a></li>
+                                <li><a class="dropdown-item" href="restaurante.html#otros-bebidas">Otros Bebidas</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="restaurante.html#carritos">Pedidos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="index.html#contacto">Contacto</a></li>
+                        <li class="nav-item"><a class="nav-link" href="index.html#ubicacion">Ubicación</a></li>
+                        <li class="nav-item"><a class="nav-link" href="index.html#opiniones">Opinión</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#historia">Historia</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="menuDeTitulosDeContenedor container mt-6 py-3 d-flex justify-content-between align-items-center">
+            <a href="#" class="navbar-brand"><img src="img/Restaurante de Don Pepito y Don José.png" alt="Logo"></a>
+            <h1 class="tituloDeLaPagina" id="inicio">Restaurante de Don Pepito y Don José</h1>
+        </div>
+    </header>
+
+    <main class="Historia">
+        <section class="ContenedorHistoria">
+            <h2 class="tituloDeHistoria">Historia del Restaurante "Don Pepito y Don José"</h2>
+            <p class="textoDeHistoria">El Restaurante de Don Pepito y Don José abrió sus puertas en el vibrante barrio de Palermo, Buenos Aires, en el año 2024. Fundado por dos amigos de toda la vida, Pedro "Don Pepito" González y José "Don José" Martínez, este establecimiento nace de su pasión compartida por la gastronomía y la cultura argentina.</p>
+            <p class="textoDeHistoria">La idea de crear un lugar que celebre la auténtica cocina porteña surgió durante una tarde lluviosa en el café favorito de ambos. Decidieron combinar sus habilidades culinarias y su amor por los sabores tradicionales para ofrecer a los porteños y visitantes una experiencia única.</p>
+            <p class="textoDeHistoria">Desde sus inicios modestos, Don Pepito y Don José se esforzaron por perfeccionar cada receta, utilizando ingredientes frescos provenientes de proveedores locales. Pronto, el restaurante se convirtió en un punto de encuentro para amantes de la buena comida y la hospitalidad argentina.</p>
+            <p class="textoDeHistoria">Con el tiempo, el restaurante ha ganado reconocimiento por su dedicación a la excelencia culinaria y el servicio excepcional. Cada plato en el menú cuenta una historia de tradición y cuidado artesanal, desde las empanadas caseras hasta los asados a la parrilla y los postres típicos argentinos.</p>
+            <p class="textoDeHistoria">Hoy en día, Don Pepito y Don José continúan comprometidos con su visión original: proporcionar una experiencia gastronómica que celebre la rica herencia culinaria de Argentina, siempre con un toque de calidez y familiaridad que hace que cada visita sea memorable.</p>
+        </section>
+
+        <section class="ContenedorHistoria">
+            <h2 class="tituloDeHistoria">Filosofía y Valores del Restaurante "Don Pepito y Don José"</h2>
+            <p class="textoDeHistoria">En el Restaurante de Don Pepito y Don José, nos enorgullece ofrecer una experiencia gastronómica única que celebra la tradición y el sabor auténtico de la cocina argentina. Nuestro restaurante, establecido en el corazón de Buenos Aires en el año 2024, es un homenaje a la pasión por la comida y la hospitalidad.</p>
+            <p class="textoDeHistoria">Nuestra misión es deleitar a nuestros clientes con platos tradicionales preparados con ingredientes frescos y locales, cuidadosamente seleccionados para garantizar la calidad y el sabor excepcional en cada bocado. Queremos ser reconocidos como un lugar donde la comida es más que un sustento: es una experiencia cultural que une a las personas y celebra nuestras raíces argentinas.</p>
+            <h3 class="subTituloDeHistoria">Valores Centrales:</h3>
+            <ul class="menuDeHistoria">
+                <li class="subMenuDeHistoria"><strong>Pasión por la Tradición:</strong> Nos dedicamos a preservar y compartir las recetas clásicas de la cocina argentina, transmitidas de generación en generación.</li>
+                <li class="subMenuDeHistoria"><strong>Excelencia y Calidad:</strong> Priorizamos la calidad en cada detalle, desde la selección de ingredientes frescos hasta la presentación cuidadosa de nuestros platos.</li>
+                <li class="subMenuDeHistoria"><strong>Hospitalidad y Calidez:</strong> Creemos en ofrecer un servicio acogedor y personalizado que haga que cada cliente se sienta bienvenido y valorado.</li>
+                <li class="subMenuDeHistoria"><strong>Innovación Respetuosa:</strong> Innovamos en nuestro menú con creatividad, manteniendo siempre el respeto por las raíces y la autenticidad de la cocina argentina.</li>
+                <li class="subMenuDeHistoria"><strong>Compromiso con la Comunidad:</strong> Apoyamos a los productores locales y promovemos prácticas sostenibles que beneficien a nuestra comunidad y al medio ambiente.</li>
+            </ul>
+        </section>
+
+        <section class="ContenedorHistoria">
+            <h2 class="tituloDeHistoria">Equipo</h2>
+            <p class="textoDeHistoria">Conoce a los fundadores y al personal actual del restaurante.</p>
+            <h3 class="subTituloDeHistoria">Fundadores</h3>
+            <p class="textoDeHistoria">Don Pepito y Don José son los visionarios detrás del restaurante que fundaron en el año XXXX. Ambos comparten una pasión por la cocina auténtica y la hospitalidad, inspirados por sus propias historias y experiencias culinarias.</p>
+            <h3 class="subTituloDeHistoria">Equipo Actual</h3>
+            <p class="textoDeHistoria">Nuestro equipo está conformado por profesionales apasionados por ofrecer la mejor experiencia gastronómica. Desde chefs creativos hasta dedicados meseros, cada miembro del equipo contribuye con su talento y compromiso para hacer de tu visita una experiencia memorable.</p>
+            <h3 class="subTituloDeHistoria">Valores</h3>
+            <p class="textoDeHistoria">En el restaurante Don Pepito y Don José, valoramos la calidad, la autenticidad y la atención al detalle en todo lo que hacemos. Nos esforzamos por superar las expectativas de nuestros clientes y mantener un ambiente acogedor donde todos se sientan bienvenidos.</p>
+            <h3 class="subTituloDeHistoria">Misión</h3>
+            <p class="textoDeHistoria">Nuestra misión es proporcionar una experiencia culinaria excepcional que celebre la cocina local y los sabores tradicionales, ofreciendo platillos que reflejen nuestro compromiso con la calidad y la frescura de los ingredientes.</p>
+            <h3 class="subTituloDeHistoria">Visión</h3>
+            <p class="textoDeHistoria">Como restaurante, aspiramos a convertirnos en un punto de referencia en la escena gastronómica local, reconocidos por nuestra excelencia en servicio y por ser un lugar donde los comensales pueden disfrutar de momentos especiales junto a familiares y amigos.</p>
+        </section>
+
+        <section class="ContenedorHistoria">
+            <h2 class="tituloDeHistoria">Experiencia Culinary</h2>
+            <p class="textoDeHistoria">En el Restaurante de Don Pepito y Don José, nuestro estilo culinario se centra en la autenticidad y la frescura. Utilizamos ingredientes locales de la más alta calidad para crear platos que reflejan la esencia de la cocina argentina. Desde nuestras famosas empanadas hasta nuestros exquisitos cortes de carne a la parrilla, cada bocado está diseñado para deleitar y sorprender.</p>
+            <p class="textoDeHistoria">Colaboramos estrechamente con proveedores locales que comparten nuestra pasión por la excelencia. Esto nos permite ofrecer ingredientes frescos y de temporada en todo momento, garantizando una experiencia culinaria única y memorable para nuestros comensales.</p>
+        </section>
+
+        <section class="ContenedorHistoria">
+            <h2 class="tituloDeHistoria">Ambiente y Diseño</h2>
+            <p class="textoDeHistoria">El ambiente del Restaurante de Don Pepito y Don José está diseñado para transportar a nuestros visitantes a la esencia misma de la cultura porteña. Con una decoración que combina elementos rústicos y modernos, cada rincón del restaurante está pensado para ofrecer comodidad y estilo.</p>
+            <p class="textoDeHistoria">Nuestro diseño interior refleja la calidez y la hospitalidad que caracteriza a nuestra cocina. Los espacios están cuidadosamente decorados para crear un ambiente acogedor donde nuestros comensales pueden disfrutar de una comida memorable junto a familiares y amigos.</p>
+        </section>
+
+        <section class="ContenedorHistoria">
+            <h2 class="tituloDeHistoria">Compromiso con la Comunidad</h2>
+            <p class="textoDeHistoria">En el Restaurante de Don Pepito y Don José, estamos comprometidos con nuestra comunidad y el entorno que nos rodea. Participamos activamente en eventos comunitarios y colaboramos con organizaciones locales para apoyar iniciativas sociales y culturales.</p>
+            <p class="textoDeHistoria">Además, nos esforzamos por practicar la sostenibilidad en todas nuestras operaciones. Utilizamos prácticas de cocina sostenibles y buscamos constantemente formas de reducir nuestro impacto ambiental, desde la gestión de residuos hasta la conservación de recursos.</p>
+        </section>
+
+        <section class="ContenedorHistoria">
+            <h2 class="tituloDeHistoria">Testimonios y Reconocimientos</h2>
+            <p class="textoDeHistoria">El Restaurante de Don Pepito y Don José ha recibido elogios y reconocimientos por parte de críticos gastronómicos y clientes por igual. Nuestras reseñas destacan la calidad de nuestros platos, el excelente servicio y la experiencia única que ofrecemos a nuestros visitantes.</p>
+            <p class="textoDeHistoria">Hemos sido honrados con premios locales por nuestra contribución a la escena culinaria de Buenos Aires y estamos orgullosos de las reseñas positivas que recibimos en plataformas de críticas y redes sociales. Cada reconocimiento nos impulsa a seguir mejorando y ofreciendo lo mejor a nuestros comensales.</p>
+        </section>
+
+        <section class="ContenedorHistoria">
+            <h2 class="tituloDeHistoria">Galería de Imágenes</h2>
+            <p class="textoDeHistoria">Descubre más sobre el ambiente y los platos del Restaurante de Don Pepito y Don José a través de nuestra galería de imágenes. Aquí capturamos momentos especiales, eventos y la esencia única de nuestra cocina porteña.</p>
+            <img class="imgDeLaHistoria" src="Img/Salón de restaurante.png" alt="Salon de restaurante">
+            <img class="imgDeLaHistoria" src="Img/cocina parte 1.png" alt="Cocina parte 1">
+            <img class="imgDeLaHistoria" src="Img/cocina parte 2.png" alt="Cocina parte 2">
+        </section>
+    </main>
+
+    <footer class="bg-mint text-white py-4">
+        <div class="container text-center">
+            <p class="textoDePie">&copy; 2024 Cafetería y Postres Saludables. Todos los derechos reservados.</p>
+            <p class="textoDePie">Desarrollado por [Sasha Aylén Cabezas Palmeyro]</p>
+        </div>
+    </footer>
+
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+
+    <!-- JS -->
+    <script src="Js/Menu.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+
+.sectionDeAcciones{
+    background-image: radial-gradient(circle at 50% 50%, #ffff6e 0, #ffff69 7.14%, #ffff66 14.29%, #ffff65 21.43%, #ebfc66 28.57%, #cef368 35.71%, #afe76b 42.86%, #90d86c 50%, #73c86d 57.14%, #57bb6f 64.29%, #3caf71 71.43%, #1ba575 78.57%, #009d79 85.71%, #00987e 92.86%, #009485 100%);
+    margin-top: 2%;
+}
+
+.TitulosDeAcciones {
+    color: #000000;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size:3rem; 
+    margin-bottom: 20px;
+}
+
+.contemedoresDeAccionGeneral {
+    text-align: center;
+}
+
+.acciones {
+    margin-bottom: 15px;
+    flex: 1 1 200px; 
+    margin: 10px; 
+}
+
+.botonAccion {
+    background-color: #4CAF50; 
+    border-color: #4CAF50;
+    color: #000000;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.botonAccion:hover {
+    background-color: #45a049; 
+    border-color: #45a049;
+    color: #000000;
+    transition: background-color 0.3s ease;
+    font-size: 1.5rem;
+}

@@ -1,0 +1,103 @@
+/* src/components/Header.css */
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+PL:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+
+/* Estilos para el header */
+header {
+    box-shadow: 0 4px 8px rgba(30, 246, 2, 0.124);
+}
+
+.navbar {
+    padding: 0.8rem 1rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: #fcfc60fc;
+}
+
+.navbar-brand img {
+    height: 60px;
+    width: auto;
+}
+
+.nav-link,
+.dropdown-item {
+    color: #000000 !important;
+}
+
+.nav-link:hover,
+.dropdown-item:hover {
+    background-color: #bdff4c;
+    color: #000000 !important;
+    transition: background-color 0.3s ease;
+}
+
+.container.mt-5 {
+    margin-top: 5rem !important;
+}
+
+.header-container {
+    background-color: #A5D6A7;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tituloDeLaPagina {
+    color: #000000;
+    font-size: 2.6rem;
+    font-family: "Playwrite PL", cursive;
+    font-weight: bold;
+    font-style: normal;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.GranMenu {
+    padding: 0;
+}
+
+.superMenu {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+
+.superMenu li {
+    margin: 0 10px;
+    position: relative;
+}
+
+.Menu {
+    display: none;
+    position: absolute;
+    background-color: #abfa93;
+    box-shadow: 0 2px 5px rgba(59, 254, 0, 0.236);
+    z-index: 10;
+    top: 100%;
+    left: 0;
+    min-width: 150px;
+}
+
+.MenuDeSub {
+    padding: 10px;
+}
+
+.linkDeMenu {
+    color: #000000;
+    text-decoration: none;
+}
+
+/* Estilos para mostrar el menú desplegable al pasar el ratón */
+.superMenu li:hover .Menu {
+    display: block;
+}
+
+.menuDeTitulosDeContenedor{
+    margin-top: 5%;
+}

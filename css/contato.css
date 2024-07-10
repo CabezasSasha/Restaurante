@@ -1,0 +1,62 @@
+/* Estilos generales para la sección de contacto */
+.ContenedorContanto {
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 800px;
+    background: rgb(23,149,0);
+    background: linear-gradient(259deg, rgba(23,149,0,1) 0%, rgba(29,253,36,1) 50%, rgba(172,255,174,1) 100%);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.tituloDeContanto {
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-size: 3rem;
+    font-weight: bold;
+    font-style:normal;
+    color: #000000;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.textoDeContanto {
+    line-height: 1.5;
+    margin-bottom: 20px;
+    text-align: justify;
+    font-size: 1.5rem;
+    color: #000000;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    padding-top: 13px ;
+}
+
+.menuDeContanto {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.subMenuDeContanto {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.iconoHistoria {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+/* Estilos para los enlaces de redes sociales */
+.subMenuDeContanto a {
+    color: #050353;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.subMenuDeContanto a:hover {
+    text-decoration: underline;
+}

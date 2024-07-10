@@ -1,0 +1,52 @@
+ /* Estilos del carrusel */
+ .carousel-item img {
+    height: 500px; 
+    object-fit: cover; 
+    width: 100%;
+}
+
+.carousel-indicators button {
+    background-color: #4CAF50; 
+}
+
+.carousel-indicators .active {
+    background-color: #2e7d32; 
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(46, 125, 50, 0.8); 
+    border-radius: 50%; 
+}
+
+.carousel-control-prev-icon:hover,
+.carousel-control-next-icon:hover {
+    background-color: rgba(46, 125, 50, 1); 
+}
+
+/* Ajustes adicionales para mejorar el diseño */
+.banner {
+    margin-top: 20px; 
+}
+
+.carousel {
+    border-radius: 15px; 
+    overflow: hidden; 
+}
+
+/* Media Queries para Responsiveness */
+@media (max-width: 768px) {
+    .carousel-item img {
+        height: 300px; 
+    }
+
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+        width: 30px; 
+        height: 30px; 
+    }
+}
+
+@media (max-width: 480px) {
+   
+}

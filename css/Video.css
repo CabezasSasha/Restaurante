@@ -1,0 +1,35 @@
+.videos-restaurante {
+    padding: 20px;
+    text-align: center;
+}
+
+.videosTitulo {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.videosContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.videoWrapper {
+    margin: 10px;
+    width: 30%;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #ffffff;
+}
+
+.videoTitulo {
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+
+video {
+    width: 100%;
+    height: auto;
+    display: block;
+}

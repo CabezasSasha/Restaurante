@@ -1,0 +1,46 @@
+/* Estilos de las tarjetas (cards) */
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card {
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.card-body {
+    text-align: center;
+    padding: 20px;
+}
+
+.card-text {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 1.2rem;
+    color: black;
+}
+
+.tituloCatds {
+    font-family: "Dancing Script", cursive;
+    font-weight: 700;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.btn-primary {
+    background-color: #4CAF50;
+    border-color: #60af4c;
+    padding: 8px 16px; 
+    font-size: 1rem; 
+    margin-top: 10px;
+}
+
+.btn-primary:hover {
+    background-color: #45a049;
+    border-color: #60af4c;
+}
+

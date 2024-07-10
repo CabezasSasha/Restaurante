@@ -1,0 +1,47 @@
+/* Estilos para la sección de ubicación */
+
+.ubicacion {
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.ubicacionTitulo {
+    margin-bottom: 10px;
+    color: #000000;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style:normal;
+    font-size: 3rem;
+}
+
+.mapa {
+    margin-bottom: 20px;
+}
+
+.direccion {
+    font-style: normal; 
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 2rem ;
+    background-color: #e3fdd7;
+}
+
+.direccionTexto {
+    margin-bottom: 5px;
+    font-size: 3rem;
+    color: #000000;
+}
+
+.direcionParrafo {
+    margin-bottom: 5px;
+    font-size: 1.2rem;
+    color: #000000;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
